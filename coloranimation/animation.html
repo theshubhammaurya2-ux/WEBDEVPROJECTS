@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+            color:white;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+
+
+        }
+        .box{
+                 width:700px;
+                 height:300px;
+                  border-radius: 5%;
+                 margin-top: 220px;
+                 margin-left: 120px;
+                 align-items: center;
+                 background:linear-gradient(67deg,rgb(234, 9, 197),rgb(34, 6, 244),rgb(6, 240, 232),yellow,orange,red);
+                 box-shadow: 0 0 60px rgb(228, 6, 6);
+                 background-size: 600% 600%;   /*  background size is necessary */
+                 animation: shubham 2s infinite alternate;
+        }     
+        @keyframes shubham{
+              0%{
+                    background-position: 0% 50%;
+             }
+    
+             50%{
+                     background-position: 100% 50%;
+                 }
+             100%{
+                     background-position: 0% 50%;
+             }
+   
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+   
+</body>
+</html>
