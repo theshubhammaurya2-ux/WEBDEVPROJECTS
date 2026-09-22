@@ -1,0 +1,134 @@
+*{
+    background-color: black;
+    color:white;
+}
+
+
+.facebook{
+    display: flex;
+}
+
+
+.facebook .left{
+    width:25%;
+    height:40px;
+    background-color: black;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook .left .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.facebook .left .img img{
+    border-radius: 50%;
+    margin:20px;
+    padding:20px;
+}
+
+.facebook .middle{
+    width:50%;
+    height:40px;
+    background-color: black; 
+    cursor: pointer;
+    transition:background 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    margin: 20px;
+   
+}
+
+.facebook .right{
+    width:25%;
+    height:40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.facebook .right .items{
+    width:50%;
+    height:40px;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    margin: 10px;
+   
+}
+
+
+.facebook .right .img img{
+    border-radius: 50%;
+        margin:20px;
+    padding:20px;
+}
+
+
+.storysection .storycontainer{
+    margin:auto;
+    margin-top: 5rem;
+    display: flex;
+    gap:16px;
+    padding:20px;
+    background-color: #242526;
+    border-radius: 12px;
+    max-width: 850px;
+    width: 100%;
+    height:55vh;
+    justify-content:center;
+}
+
+.storysection .storycontainer .story{
+    width:190px;
+    height:320px;
+    border-radius: 12px;
+    overflow:hidden;
+    position:relative;
+    cursor: pointer;
+    transition: transform 0.3 ease;
+
+}
+
+.story:hover{
+    transform: scale(1.03);
+}
+
+.story-main-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display:block;
+}
+
+
+.story-profile{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border:3px solid #1877f2;
+    object-fit: cover;
+
+}
+.story-user{
+    position: absolute;
+    left:10px;
+    bottom:10px;
+    color:white;
+    font-weight: 600;
+    font-size: 14px;
+}
