@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image changer app</title>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+        }
+           img{
+            width:600px;
+            height:500px;
+            border:2px solid red;
+            border-radius: 10%;
+           }
+        .imgcontainer{
+             
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px;
+            margin: 20px;
+        }
+        button{
+            border-radius: 20%;
+            height: 50px;
+            width:90px;
+            
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="imgcontainer"> 
+        <h1>IMAGE CHANGER APPLICATION</h1>
+        <img src="IMG_20260527_220006_442.jpg"> 
+
+    <button class="btn1"  >click to change image</button></div>
+
+
+    <script>
+  
+   let img=document.querySelector('img');
+   let h1=document.querySelector('h1');
+   let prev_src=img.src;
+   let prev_text=h1.text;
+    
+    img.addEventListener('mouseover',()=>{
+    img.src='IMG_20260602_182728_624.jpg';
+    h1.innerText="evening";
+    img.style.border='2px solid red';
+
+   })
+     img.addEventListener('mouseleave',()=>{
+    img.src='IMG_20260527_220006_442.jpg';
+     h1.innerText="night"
+    img.style.border='2px solid red';
+     })
+
+      
+    </script>
+</body>
+</html>
