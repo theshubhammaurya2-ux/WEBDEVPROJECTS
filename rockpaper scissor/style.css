@@ -1,0 +1,85 @@
+body{
+    background-color: darkcyan;
+    margin: 0px;
+    padding:0px;
+}
+h1{
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:red;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    font-size:xx-large;
+}
+
+
+.class{
+    display: flex;
+    margin:120px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+ 
+.class .choice{
+    padding-left: 8px;
+    padding-bottom: 0px;
+}
+
+
+img:hover{
+    cursor:pointer;
+    opacity: 0.7;
+    background-color: black;
+    border:6px solid black;
+}
+img {
+    width:250px;
+    height:250px;
+    border-radius: 20%;
+    border:2px solid black;
+   box-shadow: inset;
+    align-items: center;
+    justify-content: center;
+}
+
+.score_board{
+    padding-left: 20px;
+       margin-left: 20px;
+       margin-top: 30px;
+      font-size: xx-large;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+}
+.score_board .score{
+    margin-left:30px;
+     align-items: center;
+     justify-content: center;
+    font-size: x-large;
+}
+#user_score{
+    margin:20px;
+    font-size: xx-large;
+}
+#comp_score{
+  margin:20px;
+      font-size: xx-large;
+}
+.msg_container{
+    padding-left: 300px;
+       margin-left: 400px;
+      font-size: x-large;
+      align-items: center;
+      justify-content: center;
+}
+#msg{
+  align-items: center;   
+  background-color: rgb(1, 14, 50); 
+  color:white;
+  display:inline;
+  padding:1rem;
+  border-radius: 20%;
+}

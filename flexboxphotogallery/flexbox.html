@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox responsive gallery</title>
+   
+    <style>
+        body{
+            background-color:black;
+            color:white;
+        }
+ 
+        .gallery{
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            gap:30px;
+        }
+        .gallery img{
+            width:100%;
+            max-width: 300px;
+            height: auto;
+            border: 10px solid yellow;
+        }
+
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>responsive flexbox photo gallery</h1>
+    <div class="gallery">
+        <img src="IMG_20260527_215856_935.jpg" alt="" >
+        <img src="IMG_20260527_220006_442.jpg" alt="" >
+        <img src="IMG_20260602_182728_624.jpg" alt="" >
+        <img src="IMG_20260602_182827_8_Panorama.jpg" alt="" >
+        <img src="IMG_20260614_191429_633.jpg" alt="" >
+        <img src="IMG_20260614_191533_900.jpg" alt="" >
+        <img src="IMG_20260614_191607_620.jpg" alt="" >
+        <img src="IMG_20260614_191620_816.jpg" alt="" >
+    </div>
+</body>
+</html>
